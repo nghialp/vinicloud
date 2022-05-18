@@ -1032,7 +1032,7 @@ select:focus {
 }
 .navigation .navbar #mainmenu ul .nav-item.dropdown:hover .dropdown-menu .dropdown-item {
   background: #fff;
-  padding: 8px 15px;
+  /* padding: 8px 15px; */
   font-size: 15px;
   line-height: 25px;
   font-weight: 600;
@@ -3388,4 +3388,34 @@ select:focus {
   -webkit-text-fill-color: transparent;
   font-size: 80px;
   font-weight: bold;
+}
+/* .language-menu {
+ 
+} */
+.home9 .navigation.stiky-nav .navbar #mainmenu ul .language-menu .nav-link {
+  color: #FFF;
+  padding: 0px 14px;
+  /* padding: 10px 30px 10px!important; */
+  /* border-radius: 0 60px 50px 0px; */
+}
+
+.home9 .navigation .navbar #mainmenu ul .language-menu .nav-link {
+  color: #FFF;
+  position: relative;
+  background: #3b26db;
+  background: linear-gradient(to right, #3b26db, #7b19cb);
+  padding: 10px 50px 10px 50px!important;
+  border-radius: 0 50px 10px 60px;
+}
+
+.home9 .navigation .navbar #mainmenu ul .language-menu .nav-link:hover {
+  text-decoration: none;
+}
+
+.home9 .navigation .navbar #mainmenu ul .language-menu .nav-link i{
+  padding-right: 5px;
+}
+.home9 .navigation .navbar #mainmenu ul .language-menu .dropdown-menu {
+  position: absolute;
+  top: auto;
 }
